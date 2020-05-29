@@ -2,7 +2,7 @@ import exifread
 
 def toDegress(val):
     if val == 0:
-        return "the image not containt Location"
+        return "the image not contains Location"
     d = float(val.values[0].num) / float(val.values[0].den)
     m = float(val.values[1].num) / float(val.values[1].den)
     s = float(val.values[2].num) / float(val.values[2].den)
